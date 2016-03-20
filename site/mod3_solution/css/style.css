@@ -1,0 +1,138 @@
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+
+.navbar-brand {
+  padding-top: 12px;
+  padding-left: 10px;
+}
+
+h1{
+color: #555;
+text-align: center;
+font-family: 'Oswald', sans-serif;
+}
+
+
+body {
+  font-size: 16px;
+  color: #333;
+  background-color: #FFE;
+  font-family: 'Oswald', sans-serif;
+}
+
+.block{
+  background-color: #BBB;
+  border: 2px solid;
+  border-radius: 4px;
+  width: 90%;
+  margin-left: 5vw;
+  margin-bottom: 5vw;
+}
+
+
+.navbar-brand h1 { /* name */
+  font-family: 'Oswald', sans-serif;
+  color: #555;
+  font-weight: bold;
+  /*text-shadow: 1px 1px 1px #222;*/
+  margin-top: 0;
+  margin-bottom: 0;
+  /*line-height: .75;*/
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #555;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #555;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+.p0 p {
+  background-color: #aaa;
+  border: 3px solid;
+  font-family: 'Delius', cursive;
+}
+
+.p1 {
+  /*background-color: #A52A2A;*/
+  font-family: 'Delius', bold;
+  font-size: 14px;
+  text-align: center;
+
+}
+
+.p2 {
+  font-size: 12px;
+  clear: both;
+  /*overflow: auto;*/
+  /*height: 70px;*/
+  color: black;
+  padding: 5px;
+
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+  .desktop{
+      float: left;
+        border: 1px solid black;
+        width: 30%;
+      background-color: #00db9d;
+      margin-right: 20px;
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+  .mobile{
+
+      width: 90%;
+        border: 1px solid black;
+        background-color: #00db9d;
+        margin: 2%;
+          
+  
+
+}
